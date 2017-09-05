@@ -5,20 +5,21 @@
 
 使用方式：
 在root build.gradle 中添加下面代码
-
+<pre>
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
+        repositories {
+                ...
+                maven { url 'https://jitpack.io' }
+        }
+}
+</pre> 
   
 在工程的builde.gradle文件中添加
+<pre>
 dependencies {
-	        compile 'com.github.yx544806988:ToolsApp:-SNAPSHOT'
-	}
-  
+        compile 'com.github.yx544806988:ToolsApp:-SNAPSHOT'
+}
+</pre> 
   
   
   
